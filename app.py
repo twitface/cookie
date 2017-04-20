@@ -37,7 +37,7 @@ socketio = SocketIO(app)
 
 @app.route('/')
 def root():
-    return "Om Nom Nom!!! %s\n" % time.asctime()
+    return "Om Nom Nom!! %s\n" % time.asctime()
 
 if __name__ == "__main__":
     socketio.run(app, host="0.0.0.0", port=5000, debug=True)
