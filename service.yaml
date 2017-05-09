@@ -1,1 +1,7 @@
 prefix: om/nom/nom
+
+branches:
+- name: lowfat
+  load: 0.25
+- name: lowsugar
+  load: 0.1
