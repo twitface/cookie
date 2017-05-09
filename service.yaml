@@ -1,5 +1,7 @@
 prefix: om/nom/nom
 
+# these branches are also deployed at the indicated load proportion
+# this is useful for canary testing
 branches:
 - name: lowfat
   load: 0.25
